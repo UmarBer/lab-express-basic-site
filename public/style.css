@@ -1,0 +1,31 @@
+body {
+  margin: auto;
+  padding: 2em;
+  font-family: monospace;
+}
+
+nav {
+  background-color: rgb(155, 155, 156);
+  padding: 1em;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+p {
+  display: flex;
+  flex-direction: row;
+  padding: 5em;
+  font-size: 25px;
+}
+
+a {
+  color: black;
+  outline-style: none;
+}
