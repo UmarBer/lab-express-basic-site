@@ -5,27 +5,58 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: space-around;
   background-color: rgb(155, 155, 156);
   padding: 1em;
   font-weight: bold;
   font-size: 20px;
 }
 
-ul {
-  list-style: none;
+h1 {
+  padding: 1em;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4em;
 }
 p {
   display: flex;
   flex-direction: row;
-  padding: 5em;
+  padding: 2em;
   font-size: 25px;
 }
-
-a {
+.heartdrops {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  padding-left: 2em;
+  font-size: 25px;
+}
+.home {
+  margin-top: 2em;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.links {
   color: black;
-  outline-style: none;
+  text-decoration: none;
+}
+
+#gallery {
+  padding: 1em;
+  line-height: 0;
+  -webkit-column-count: 3; /* split it into 5 columns */
+  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+  -moz-column-count: 3;
+  -moz-column-gap: 5px;
+  column-count: 3;
+  column-gap: 5px;
+}
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 5px; /* to match column gap */
 }
